@@ -92,7 +92,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         
         let alerta = UIAlertController(title: "Error", message: "error \(error.code)", preferredStyle: .Alert)
         
-        let accionOK = UIAlertAction(title: "OK", style: .Default, handler: {accion in
+        let accionOK = UIAlertAction(title: "no", style: .Default, handler: {accion in
             
         })
         
